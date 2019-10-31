@@ -984,6 +984,13 @@ footer .back-to-top i {
 
 }
 
+.personal-info-div{
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 40px;
+  text-align: left;
+}
+
 @include keyframes(slbOverlay) {
     from { opacity: 0; }
     to { opacity: 0.7; }
