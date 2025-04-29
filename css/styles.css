@@ -3083,9 +3083,20 @@ img.u-pull-left {
 
 .secondary-nav li {
   flex: 1 1 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
   padding-left: 0;
   border-right: 1px solid var(--color-border);
   cursor: pointer;
+}
+
+.secondary-nav li img {
+  width: 90px;
+  margin-bottom: 0;
+  border-radius: 8px;
+  height: 100%;
 }
 
 .secondary-nav li.current {
