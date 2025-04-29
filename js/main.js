@@ -4,7 +4,7 @@
  * ------------------------------------------------------------------- */
 
 (function (html) {
-  "use strict";
+  ("use strict");
 
   html.className = html.className.replace(/\bno-js\b/g, "") + " js ";
 
@@ -348,3 +348,22 @@
     ssMoveTo();
   })();
 })(document.documentElement);
+
+// toggle experience tab
+const toggleExp = function (id) {
+  const tabs = Array.from(document.getElementsByClassName("skill-tab"));
+  tabs.forEach((tab) => {
+    if (tab.id === "skills-" + id) {
+      console.log("match: ", tab.id, " ... ", id + "-tab");
+      tab.classList.remove("hidden");
+      document.getElementById(id + "-tab").classList.add("current");
+    } else {
+      console.log("remove: ", tab.id, " ... ", id + "-tab");
+
+      tab.classList.add("hidden");
+      document
+        .getElementById(tab.id.split("-")[1] + "-tab")
+        .classList.remove("current");
+    }
+  });
+};

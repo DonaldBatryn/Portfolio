@@ -109,7 +109,6 @@
 
 
                     <ul class="intro-social">
-                        <!-- <li><a href="#0">Behance</a></li> -->
                         <li><a target="_blank" href="https://github.com/DonaldBatryn">Github</a></li>
                         <li><a target="_blank" href="https://www.linkedin.com/in/donald-batryn-a81522187/">LinkedIn</a></li>
                         <li><a target="_blank" href="https://www.instagram.com/mtvgh0sts/">Instagram</a></li>
@@ -158,12 +157,12 @@
                 </div> <!-- about-info -->
 
 
-                <!-- <div class="row about-expertise" data-animate-block>
+                <div class="row about-expertise" style="margin-bottom: 100px;" data-animate-block>
                     <div class="column lg-12">
 
                         <h2 class="text-pretitle" data-animate-el>Expertise</h2>
 
-                        <ul class="skills-list h1" data-animate-el>
+                        <!-- <ul class="skills-list h1" data-animate-el>
                             <li>React / React Native</li>
                             <li>NextJS</li>
                             <li>Flask</li>
@@ -172,28 +171,29 @@
                             <li>Live performance, lessons</li>
                             <li>Aesthetic Dentistry, Endodontics</li>
                             <li>Illustration</li>
-                        </ul>
+                        </ul> -->
 
-                        <div class="row wide">
+                        <div class="row wide" style="margin-bottom: 30px;">
                             <nav class="column lg-12 secondary-nav">
                                 <ul>
-                                    <li><a href="#tech" class="current home-link">Tech</a></li>
-                                    <li><a href="#dentistry" class="smoothscroll">Dentistry</a></li>
-                                    <li><a href="#music" class="smoothscroll">Music</a></li>
+                                    <li class="current" id="tech-tab"><a onclick="toggleExp('tech')">Tech</a></li>
+                                    <li class="" id="dent-tab"><a onclick="toggleExp('dent')">Dentistry</a></li>
+                                    <li class="" id="music-tab"><a onclick="toggleExp('music')">Music</a></li>
                                 </ul>
                             </nav>
                         </div>
-                        <div id="skills-tech" class="skills-list">
+                        <div id="skills-tech" class="skill-tab">
                             As a software developer, I use my abilities to learn new languages, understand complex systems, and build useful and maintainable products.
                         </div>
-                        <div id="skills-dentistry" class="skills-list">
+                        <div id="skills-dent" class="skill-tab hidden">
                             As a dental assistant, I've taken pride in delivering the highest quality dental care. I use my refined attention to detail and interpersonal prowess to help my fellow Chicagoans maintain a healthy smile.
                         </div>
-                        <div id="skills-music" class="skills-list">
-                            Having a background in music theory and performance...
+                        <div id="skills-music" class="skill-tab hidden">
+                            <!-- Having a background in music theory and performance... -->
+                             Coming soon...
                         </div>
                     </div>
-                </div>  -->
+                </div> 
                 <!-- end about-expertise -->
 
 
@@ -210,7 +210,7 @@
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
-                                    <h4 class="timeline__title">Knack</h3>
+                                    <h4 class="timeline__title"><a href="https://www.joinknack.com/" target="_blank">Knack</a></h3>
                                     <h5 class="timeline__meta">Software Engineer</h5>
                                     <p class="timeline__timeframe">Aug 2022 - Sep 2023</p>
                                 </div>
@@ -222,7 +222,7 @@
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
-                                    <h4 class="timeline__title"><a href="https://www.4degrees.ai/">4Degrees</a></h4>
+                                    <h4 class="timeline__title"><a href="https://www.4degrees.ai/" target="_blank">4Degrees</a></h4>
                                     <h5 class="timeline__meta">Mobile Engineer</h5>
                                     <p class="timeline__timeframe">Jan 2020 - Jul 2022</p>
                                 </div>
