@@ -1,168 +1,188 @@
 <!DOCTYPE html>
 <html class="no-js ss-preload" lang="en">
-<head>
-
+  <head>
     <!--- basic page needs
     ================================================== -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Donnie</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- favicons
     ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/DLogo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/DLogo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/DLogo.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/DLogo.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/DLogo.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/DLogo.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
 
-</head>
-
-<body id="top">
-
-
+  <body id="top">
     <!-- # preloader
     ================================================== -->
     <div id="preloader">
-        <div id="loader">
-        </div>
+      <div id="loader"></div>
     </div>
-
 
     <!-- # page wrap
     ================================================== -->
     <div class="s-pagewrap">
+      <div class="circles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-        <div class="circles">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+      <!-- ## site header 
+        ================================================== -->
+      <header class="s-header">
+        <div class="header-mobile">
+          <span class="mobile-home-link"><a href="index.html">Donnie</a></span>
+          <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
         </div>
 
+        <div class="row wide main-nav-wrap">
+          <nav class="column lg-12 main-nav">
+            <ul>
+              <li><a href="index.html" class="home-link">Donnie.</a></li>
+              <li class="current">
+                <a href="#intro" class="smoothscroll">Intro</a>
+              </li>
+              <li><a href="#about" class="smoothscroll">About</a></li>
+              <li><a href="#works" class="smoothscroll">Works</a></li>
+              <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- end s-header -->
 
-        <!-- ## site header 
-        ================================================== -->
-        <header class="s-header">
-
-            <div class="header-mobile">
-                <span class="mobile-home-link"><a href="index.html">Donnie</a></span>
-                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
-            </div>
-
-            <div class="row wide main-nav-wrap">
-                <nav class="column lg-12 main-nav">
-                    <ul>
-                        <li><a href="index.html" class="home-link">Donnie.</a></li>
-                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
-                        <li><a href="#about" class="smoothscroll">About</a></li>
-                        <li><a href="#works" class="smoothscroll">Works</a></li>
-                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </header> <!-- end s-header -->
-
-
-        <!-- ## main content
+      <!-- ## main content
         ==================================================- -->
-        <main class="s-content">
-            
-            
-            <!-- ### intro
+      <main class="s-content">
+        <!-- ### intro
             ================================================== -->
-            <section id="intro" class="s-intro target-section" data-animate-block>
-                <div class="column" style="display: flex;">
+        <section id="intro" class="s-intro target-section" data-animate-block>
+          <div class="column" style="display: flex">
+            <img
+              src="img/headshot2025.jpeg"
+              srcset="img/headshot2025.jpeg 1x, img/headshot2025.jpeg 2x"
+              alt=""
+              class="about-info__pic s-intro-img"
+              style=""
+            />
+          </div>
 
-                    <img src="img/headshot2025.jpeg" srcset="img/headshot2025.jpeg 1x, img/headshot2025.jpeg 2x" alt="" class="about-info__pic s-intro-img" 
-                     style="" 
-                    
-                    >
-                </div>
+          <div class="row intro-content wide">
+            <div class="column">
+              <div class="text-pretitle with-line">Hello World</div>
 
-                <div class="row intro-content wide">
+              <h1 class="text-huge-title">
+                I'm Donnie - <br />
+                software developer, <br />
+                dental professional, <br />
+                & artist based <br />
+                in Chicago, IL.
+              </h1>
+            </div>
 
-                    <div class="column">
-                        <div class="text-pretitle with-line">
-                            Hello World
-                        </div>
+            <ul class="intro-social">
+              <li>
+                <a target="_blank" href="https://github.com/DonaldBatryn"
+                  >Github</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/donald-batryn-a81522187/"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a target="_blank" href="https://www.instagram.com/mtvgh0sts/"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- end intro content -->
 
-                        <h1 class="text-huge-title">
-                            I'm Donnie - <br>
-                            software developer, <br>
-                            dental professional, <br> 
-                            & artist based <br>
-                            in Chicago, IL.
-                        </h1>
-                    </div>
+          <a href="#about" class="intro-scrolldown smoothscroll">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+            >
+              <path
+                d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"
+              />
+            </svg>
+          </a>
+        </section>
+        <!-- end s-intro -->
 
-
-                    <ul class="intro-social">
-                        <li><a target="_blank" href="https://github.com/DonaldBatryn">Github</a></li>
-                        <li><a target="_blank" href="https://www.linkedin.com/in/donald-batryn-a81522187/">LinkedIn</a></li>
-                        <li><a target="_blank" href="https://www.instagram.com/mtvgh0sts/">Instagram</a></li>
-                    </ul>
-
-                </div> <!-- end intro content -->
-
-                <a href="#about" class="intro-scrolldown smoothscroll">
-                    
-                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
-                </a>
-
-            </section> <!-- end s-intro -->
-
-
-            <!-- ### about
+        <!-- ### about
             ================================================== -->
-            <section id="about" class="s-about target-section">
+        <section id="about" class="s-about target-section">
+          <div class="row about-info wide" data-animate-block>
+            <div class="column lg-6 md-12 about-info__pic-block">
+              <img
+                id="legshot"
+                src="img/legshot.jpg"
+                srcset="img/legshot.jpg 1x, img/legshot.jpg 2x"
+                alt=""
+                class="about-info__pic"
+                data-animate-el
+                style="width: 500px"
+              />
+            </div>
 
-                <div class="row about-info wide" data-animate-block>
+            <div class="column lg-6 md-12">
+              <div class="about-info__text">
+                <h2 class="text-pretitle with-line" data-animate-el>About</h2>
+                <p class="attention-getter" data-animate-el>
+                  I've worn many hats in my career. <br />
+                  My diverse professional background has allowed me to develop a
+                  wide skillset and explore my passions at the intersection of
+                  music, science, technology, and service work. These skills
+                  cross over more often than not, which is why I bring my full
+                  self to every challenge. Whether I'm collaborating remotely
+                  with a software development team, or assisting a dental
+                  surgery, my communication and attention to detail are
+                  paramount to success.
+                </p>
+                <a href="#0" class="btn btn--medium u-fullwidth" data-animate-el
+                  >Download CV</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- about-info -->
 
-                    
-                    <div class="column lg-6 md-12 about-info__pic-block">
-                        <img id="legshot" src="img/legshot.jpg" 
-                             srcset="img/legshot.jpg 1x, img/legshot.jpg 2x" alt="" class="about-info__pic" data-animate-el
-                             style="width: 500px;"
-                             >
-                    </div>
+          <div id="expertise"></div>
+          <div
+            class="row about-expertise"
+            style="margin-bottom: 100px"
+            data-animate-block
+          >
+            <div class="column lg-12">
+              <h2 class="text-pretitle" data-animate-el>Expertise</h2>
 
-                    <div class="column lg-6 md-12">
-                        <div class="about-info__text" >
-
-                            <h2 class="text-pretitle with-line" data-animate-el>
-                                About
-                            </h2>
-                            <p class="attention-getter" data-animate-el>
-                            I've worn many hats in my career. <br>
-                            My diverse professional background has allowed me to develop a wide skillset and explore my passions at the intersection of music, science, technology, and service work.
-                            These skills cross over more often than not, which is why I bring my full self to every challenge.
-                            Whether I'm collaborating remotely with a software development team, or assisting a dental surgery, my communication and attention to detail are paramount to success.
-                            </p>
-                            <a href="#0" class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a>
-
-                        </div>
-                    </div>
-                </div> <!-- about-info -->
-
-                <div id="expertise"></div>
-                <div class="row about-expertise" style="margin-bottom: 100px;" data-animate-block>
-                    <div class="column lg-12">
-
-                        <h2  class="text-pretitle" data-animate-el>Expertise</h2>
-
-                        <!-- <ul class="skills-list h1" data-animate-el>
+              <!-- <ul class="skills-list h1" data-animate-el>
                             <li>React / React Native</li>
                             <li>NextJS</li>
                             <li>Flask</li>
@@ -173,187 +193,267 @@
                             <li>Illustration</li>
                         </ul> -->
 
-                        <div class="row wide" style="margin-bottom: 30px;">
-                            <nav class="column lg-12 secondary-nav">
-                                <ul>
-                                    <li class="current" id="tech-tab" onclick="toggleExp('tech')"><a class="smoothscroll" href="#expertise"><img src="img/computer.png"/></a></li>
-                                    <li class="" id="dent-tab" onclick="toggleExp('dent')"><a class="smoothscroll" href="#expertise"><img src="img/tooth.png"/></a></li>
-                                    <li class="" id="music-tab" onclick="toggleExp('music')"><a class="smoothscroll" href="#expertise"><img src="img/eighthnote.png"/></a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div id="skills-tech" class="skill-tab">
-                            As a software developer, I use my abilities to learn new languages, understand complex systems, and build useful and maintainable products.
-                        </div>
-                        <div id="skills-dent" class="skill-tab hidden">
-                            As a dental assistant, I've taken pride in delivering the highest quality dental care. I use my refined attention to detail and interpersonal prowess to help my fellow Chicagoans maintain a healthy smile.
-                        </div>
-                        <div id="skills-music" class="skill-tab hidden">
-                            With my robust skillset, I can take my passion in many directions. I enjoy playing producer and engineer for my own projects and for clients alike. <br> 
-                            As a private teacher, I enjoy sharing my knowledge and helping others achieve musical fluency. <br> 
-                            Depending on the day, I either serve as the leader of my own group, <a target="_blank" href="https://open.spotify.com/artist/21ACqzyaa4wxzCh3hhvMcv">mtvghosts</a>, or performing with various groups across the city of Chicago. <br>
-                            I love to explore and develop new ideas in the way we hear and understand rhythm and harmony. Follow my blog for my latest sonic adventures!
-                        </div>
-                    </div>
-                </div> 
-                <!-- end about-expertise -->
-
-
-                <div class="row about-timelines" data-animate-block>
-
-                    <div class="column lg-6 tab-12">
-
-                        <h2 class="text-pretitle" data-animate-el>
-                            Experience
-                        </h2>
-
-                        <div class="timeline" data-animate-el>
-
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title"><a href="https://www.joinknack.com/" target="_blank">Knack</a></h3>
-                                    <h5 class="timeline__meta">Software Engineer</h5>
-                                    <p class="timeline__timeframe">Aug 2022 - Sep 2023</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>As a member of the frontend development team, I empowered college students to tap in to one of the best learning resources they have - eachother. We helped create a robust cross-platform tool using React, Laravel and GraphQL, which included a collaborative whiteboard. The team really emobodied test-driven practices, innovation with tooling, and clean reusable code.</p>
-                                </div>
-                            </div>
-    
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title"><a href="https://www.4degrees.ai/" target="_blank">4Degrees</a></h4>
-                                    <h5 class="timeline__meta">Mobile Engineer</h5>
-                                    <p class="timeline__timeframe">Jan 2020 - Jul 2022</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>My time here gave me experience in a broad sweep of technologies. Along with full-stack contributions to 4D's web application, I built out companion products that added huge value to our user base. I used React Native for iOS/Android mobile development and pure JS to develop extentions for Chrome, Outlook and Salesforce.</p>
-                                </div>
-                            </div>
-    
-                        </div> <!-- end timeline -->
-
-                    </div> <!-- end column -->
-
-                    <div class="column lg-6 tab-12">
-
-                        <h2 class="text-pretitle" data-animate-el>
-                            Education
-                        </h2>
-
-                        <div class="timeline" data-animate-el>
-
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">App Academy</h3>
-                                    <h5 class="timeline__meta">Immersive, Full-stack Software Engineering Bootcamp</h5>
-                                    <p class="timeline__timeframe">Summer/Fall 2019</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>My experience at the best bootcamp in the game gave me the tools needed to thrive in tech. I learned hands-on how to collaborate with a development team, and had a world of tools, languages and frameworks open up to me. It was a rigorous full-time course that left me ready to build, and helped lay the groundwork for me to keep growing as the tech landscape changes.</p>
-                                </div>
-                            </div>
-    
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">College of Dupage</h4>
-                                    <h5 class="timeline__meta">-</h5>
-                                    <p class="timeline__timeframe">2009-2010</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>My time here was short-lived, but gave me a push I needed to expand my endeavors into dentistry and the arts. I enjoyed working on campus in the recording studio, Calculus, Philosophy and Anthropology.</p>
-                                </div>
-                            </div>
-    
-                        </div> <!-- end timeline -->
-                        
-                    </div> <!-- end column -->
-
-
-                </div> <!-- end about-timelines -->
-
-            </section> <!-- end s-about -->
-
-
-            <!-- ### works
-            ================================================== -->
-
-            <!-- end s-works -->
-
-
-            <!-- ### contact
-            ================================================== -->
-            <section id="contact" class="s-contact target-section">
-
-                <div class="row contact-top">
-                    <div class="column lg-12">
-                        <h2 class="text-pretitle">
-                            Get In Touch
-                        </h2>
-
-                        <p class="h1">
-                            I'd love to hear from you.
-                            Whether you have a question or just 
-                            want to chat about code, music & dentistry — shoot me a message.
-                        </p>
-                    </div>
-                </div> <!-- end contact-top -->
-
-                <div class="row contact-bottom">
-                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
-                        <h3 class="text-pretitle">Reach me at</h3>
-                        <p class="contact-links">
-                            <a href="mailto:donald.batryn@gmail.com" class="mailtoui">donald.batryn@gmail.com</a> <br>
-                            <a href="tel:+3318038050">+3318038050</a>
-                        </p>
-                    </div>
-                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
-                        <h3 class="text-pretitle">Social</h3>
-                        <ul class="contact-social">
-                            <li><a href="#0">Instagram</a></li>
-                            <li><a href="#0">Github</a></li>
-                        </ul>
-                    </div>
-                    <div class="column lg-4 md-12 contact-block">
-                        <a href="mailto:donald.batryn@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello</a>
-                    </div>
-                </div> <!-- end contact-bottom -->
-
-            </section> <!-- end contact -->
-
-        </main> <!-- end s-content -->
-
-
-        <!-- ## footer
-        ================================================== -->
-        <footer class="s-footer">
-
-            <div class="row">
-                <div class="column ss-copyright">
-                    <span>© Copyright Luther 2021</span> 
-                    <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">Themewagon</a></span>
-                </div>
-
-                <div class="ss-go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
-                    </a>
-                </div>
+              <div class="row wide" style="margin-bottom: 30px">
+                <nav class="column lg-12 secondary-nav">
+                  <ul>
+                    <li
+                      class="current"
+                      id="tech-tab"
+                      onclick="toggleExp('tech')"
+                    >
+                      <a class="smoothscroll" href="#expertise"
+                        ><img src="img/computer.png"
+                      /></a>
+                    </li>
+                    <li class="" id="dent-tab" onclick="toggleExp('dent')">
+                      <a class="smoothscroll" href="#expertise"
+                        ><img src="img/tooth.png"
+                      /></a>
+                    </li>
+                    <li class="" id="music-tab" onclick="toggleExp('music')">
+                      <a class="smoothscroll" href="#expertise"
+                        ><img src="img/eighthnote.png"
+                      /></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div id="skills-tech" class="skill-tab">
+                As a software developer, I use my abilities to learn new
+                languages, understand complex systems, and build useful and
+                maintainable products.
+              </div>
+              <div id="skills-dent" class="skill-tab hidden">
+                As a dental assistant, I've taken pride in delivering the
+                highest quality dental care. I use my refined attention to
+                detail and interpersonal prowess to help my fellow Chicagoans
+                maintain a healthy smile.
+              </div>
+              <div id="skills-music" class="skill-tab hidden">
+                With my robust skillset, I can take my passion in many
+                directions. I enjoy playing producer and engineer for my own
+                projects and for clients alike. <br />
+                As a private teacher, I enjoy sharing my knowledge and helping
+                others achieve musical fluency. <br />
+                Depending on the day, I either serve as the leader of my own
+                group,
+                <a
+                  target="_blank"
+                  href="https://open.spotify.com/artist/21ACqzyaa4wxzCh3hhvMcv"
+                  >mtvghosts</a
+                >, or performing with various groups across the city of Chicago.
+                <br />
+                I love to explore and develop new ideas in the way we hear and
+                understand rhythm and harmony. Follow my blog for my latest
+                sonic adventures!
+              </div>
             </div>
+          </div>
+          <!-- end about-expertise -->
 
-        </footer> <!-- end s-footer -->
+          <div class="row about-timelines" data-animate-block>
+            <div class="column lg-6 tab-12">
+              <h2 class="text-pretitle" data-animate-el>Experience</h2>
 
-    </div> <!-- end -s-pagewrap -->
+              <div class="timeline" data-animate-el>
+                <div class="timeline__block">
+                  <div class="timeline__bullet"></div>
+                  <div class="timeline__header">
+                    <h4 class="timeline__title">
+                      <a href="https://www.joinknack.com/" target="_blank"
+                        >Knack</a
+                      >
+                    </h4>
+                    <h5 class="timeline__meta">Software Engineer</h5>
+                    <p class="timeline__timeframe">Aug 2022 - Sep 2023</p>
+                  </div>
+                  <div class="timeline__desc">
+                    <p>
+                      As a member of the frontend development team, I empowered
+                      college students to tap in to one of the best learning
+                      resources they have - eachother. We helped create a robust
+                      cross-platform tool using React, Laravel and GraphQL,
+                      which included a collaborative whiteboard. The team really
+                      emobodied test-driven practices, innovation with tooling,
+                      and clean reusable code.
+                    </p>
+                  </div>
+                </div>
 
+                <div class="timeline__block">
+                  <div class="timeline__bullet"></div>
+                  <div class="timeline__header">
+                    <h4 class="timeline__title">
+                      <a href="https://www.4degrees.ai/" target="_blank"
+                        >4Degrees</a
+                      >
+                    </h4>
+                    <h5 class="timeline__meta">Mobile Engineer</h5>
+                    <p class="timeline__timeframe">Jan 2020 - Jul 2022</p>
+                  </div>
+                  <div class="timeline__desc">
+                    <p>
+                      My time here gave me experience in a broad sweep of
+                      technologies. Along with full-stack contributions to 4D's
+                      web application, I built out companion products that added
+                      huge value to our user base. I used React Native for
+                      iOS/Android mobile development and pure JS to develop
+                      extentions for Chrome, Outlook and Salesforce.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end timeline -->
+            </div>
+            <!-- end column -->
+
+            <div class="column lg-6 tab-12">
+              <h2 class="text-pretitle" data-animate-el>Education</h2>
+
+              <div class="timeline" data-animate-el>
+                <div class="timeline__block">
+                  <div class="timeline__bullet"></div>
+                  <div class="timeline__header">
+                    <h4 class="timeline__title">
+                      <a href="https://www.appacademy.io/" target="_blank"
+                        >App Academy</a
+                      >
+                    </h4>
+                    <h5 class="timeline__meta">
+                      Immersive, Full-stack Software Engineering Bootcamp
+                    </h5>
+                    <p class="timeline__timeframe">Summer/Fall 2019</p>
+                  </div>
+                  <div class="timeline__desc">
+                    <p>
+                      My experience at the best bootcamp in the game gave me the
+                      tools needed to thrive in tech. I learned hands-on how to
+                      collaborate with a development team, and had a world of
+                      tools, languages and frameworks open up to me. It was a
+                      rigorous full-time course that left me ready to build, and
+                      helped lay the groundwork for me to keep growing as the
+                      tech landscape changes.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="timeline__block">
+                  <div class="timeline__bullet"></div>
+                  <div class="timeline__header">
+                    <h4 class="timeline__title">
+                      <a href="https://www.cod.edu/" target="_blank"
+                        >College of DuPage</a
+                      >
+                    </h4>
+                    <h5 class="timeline__meta">-</h5>
+                    <p class="timeline__timeframe">2009-2010</p>
+                  </div>
+                  <div class="timeline__desc">
+                    <p>
+                      My time here was short-lived, but gave me a push I needed
+                      to expand my endeavors into dentistry and the arts. I
+                      enjoyed working on campus in the recording studio,
+                      Calculus, Philosophy and Anthropology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end timeline -->
+            </div>
+            <!-- end column -->
+          </div>
+          <!-- end about-timelines -->
+        </section>
+        <!-- end s-about -->
+
+        <!-- ### works
+            ================================================== -->
+
+        <!-- end s-works -->
+
+        <!-- ### contact
+            ================================================== -->
+        <section id="contact" class="s-contact target-section">
+          <div class="row contact-top">
+            <div class="column lg-12">
+              <h2 class="text-pretitle">Get In Touch</h2>
+
+              <p class="h1">
+                I'd love to hear from you. Whether you have a question or just
+                want to chat about code, music & dentistry — shoot me a message.
+              </p>
+            </div>
+          </div>
+          <!-- end contact-top -->
+
+          <div class="row contact-bottom">
+            <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+              <h3 class="text-pretitle">Reach me at</h3>
+              <p class="contact-links">
+                <a href="mailto:donald.batryn@gmail.com" class="mailtoui"
+                  >donald.batryn@gmail.com</a
+                >
+                <br />
+                <a href="tel:+3318038050">+3318038050</a>
+              </p>
+            </div>
+            <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+              <h3 class="text-pretitle">Social</h3>
+              <ul class="contact-social">
+                <li><a href="#0">Instagram</a></li>
+                <li><a href="#0">Github</a></li>
+              </ul>
+            </div>
+            <div class="column lg-4 md-12 contact-block">
+              <a
+                href="mailto:donald.batryn@gmail.com"
+                class="mailtoui btn btn--medium u-fullwidth contact-btn"
+                >Say Hello</a
+              >
+            </div>
+          </div>
+          <!-- end contact-bottom -->
+        </section>
+        <!-- end contact -->
+      </main>
+      <!-- end s-content -->
+
+      <!-- ## footer
+        ================================================== -->
+      <footer class="s-footer">
+        <div class="row">
+          <div class="column ss-copyright">
+            <span>© Copyright Luther 2021</span>
+            <span
+              >Design by
+              <a href="https://www.styleshout.com/">StyleShout</a> Distribution
+              By <a href="https://themewagon.com">Themewagon</a></span
+            >
+          </div>
+
+          <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </footer>
+      <!-- end s-footer -->
+    </div>
+    <!-- end -s-pagewrap -->
 
     <!-- Java Script
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
-</body>
+  </body>
 </html>
