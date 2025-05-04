@@ -3256,7 +3256,8 @@ img.u-pull-left {
   }
 
   .secondary-nav {
-    padding: var(--vspace-1) 0 var(--vspace-1_5);
+    padding: var(--vspace-1) var(--gutter);
+    /* padding: var(--vspace-1) 0 var(--vspace-1); */
     transform: translateY(-2rem);
     opacity: 1;
     visibility: visible;
@@ -3284,7 +3285,6 @@ img.u-pull-left {
   }
 
   .secondary-nav ul {
-    display: block;
     background-color: transparent;
     text-align: left;
     margin: 0;
